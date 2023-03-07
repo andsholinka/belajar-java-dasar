@@ -1,2 +1,13 @@
-package PACKAGE_NAME;public class OperasiPerbandingan {
+public class OperasiPerbandingan {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        System.out.println(a>b);
+        System.out.println(a<b);
+        System.out.println(a==b);
+        System.out.println(a!=b);
+        System.out.println(a<=b);
+        System.out.println(a>=b);
+    }
 }
